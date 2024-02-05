@@ -10,7 +10,7 @@ import {
 import { NotesService } from './notes.service';
 import { CreateNoteDto, UpdateNoteDto } from './note.dto'; // Define DTOs for create and update operations
 
-@Controller('notes')
+@Controller('api/notes')
 export class NotesController {
   constructor(private readonly notesService: NotesService) {}
 

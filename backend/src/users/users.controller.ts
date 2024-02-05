@@ -11,7 +11,7 @@ import { UsersService } from './users.service';
 import { SignUpDto, LoginDto } from './user.dto';
 import { Request } from 'express';
 
-@Controller('users')
+@Controller('api/users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
