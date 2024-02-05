@@ -2,7 +2,7 @@
 A simple note app with user authentication using mongo, react, and nest js
 
 ## How to start the web application
-Windows: 
+### Windows
 Make sure you have Docker Desktop installed.
 Start Docker Desktop
 
